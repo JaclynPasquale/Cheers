@@ -14,18 +14,23 @@ namespace Cheers
             System.Console.ReadKey();
             string name = System.Console.ReadLine();
             System.Console.WriteLine("Welcome, " + name);
-            string nameUpper = name.ToUpper();
-            System.Console.WriteLine(name + " is... GRAND!");
-
-            ////foreach (char letter in name.ToLower())
-            //{
-            //    string article = "a";
-            //    if ("halfnorsemix")
-
-            ////}
-
+            string upperName = name.ToUpper();
             
 
+            foreach (char letter in name.ToLower())
+            {
+                string article = "a";
+                if ("halfnorsemix".IndexOf(letter) >= 0)
+                {
+                    article = "an";
+                }
+                System.Console.WriteLine("Give me " + article + ".. " + letter);
+            }
+
+            System.Console.WriteLine(upperName + " is.. GRAND!");
+
+            System.Console.WriteLine("Press any key to exit");
+            System.Console.ReadKey();
         }
     }
 }
