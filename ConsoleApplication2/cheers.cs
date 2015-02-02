@@ -10,7 +10,7 @@ namespace Cheers
     {
         static void Main(string[] args)
         {
-            System.Console.WriteLine("what is your name?");
+            System.Console.WriteLine("What is your name?");
             System.Console.ReadKey();
             string name = System.Console.ReadLine();
             System.Console.WriteLine("Welcome, " + name);
@@ -28,6 +28,11 @@ namespace Cheers
             }
 
             System.Console.WriteLine(upperName + " is.. GRAND!");
+            System.Console.WriteLine("When is your birthday?(ex: 8 12");
+            System.Console.ReadKey();
+            int birthday = System.Console.ReadLine();
+            System.Console.WriteLine("Your birthday is " + birthday)
+
 
             System.Console.WriteLine("Press any key to exit");
             System.Console.ReadKey();
