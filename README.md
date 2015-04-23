@@ -1,3 +1,5 @@
 # Cheers
 
-In class c# exercise
+c# console app 
+
+
